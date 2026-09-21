@@ -2,20 +2,21 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b21btbm8xh047"
-path="res://.godot/imported/Player.png-b2519ac87b92f1468370989f94c61e66.ctex"
+uid="uid://ddhb70xnrnt3"
+path.s3tc="res://.godot/imported/grass1_texture.png-f6485394dcbc0584fcd38cdd5fd98f8d.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
-source_file="res://Peds/Player/Sprites/Player.png"
-dest_files=["res://.godot/imported/Player.png-b2519ac87b92f1468370989f94c61e66.ctex"]
+source_file="res://Levels/Ground/Textures/grass1_texture.png"
+dest_files=["res://.godot/imported/grass1_texture.png-f6485394dcbc0584fcd38cdd5fd98f8d.s3tc.ctex"]
 
 [params]
 
-compress/mode=3
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

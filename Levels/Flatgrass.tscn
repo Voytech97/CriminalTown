@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://yq0ocwxq6gbs"]
+
+[ext_resource type="Texture2D" uid="uid://ddhb70xnrnt3" path="res://Levels/Ground/Textures/grass1_texture.png" id="1_8iwsk"]
+[ext_resource type="PackedScene" uid="uid://dn8fxumfj51hw" path="res://Peds/Player/Player.tscn" id="1_cfl4w"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drl00"]
+albedo_texture = ExtResource("1_8iwsk")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2c5rx"]
+
+[node name="Flatgrass" type="Node3D" unique_id=516842604]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1724716464]
+transform = Transform3D(3.4083269, 0, 0, 0, 1, 0, 0, 0, 3.3617826, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_drl00")
+mesh = SubResource("PlaneMesh_2c5rx")
+
+[node name="Player" parent="." unique_id=1083765268 instance=ExtResource("1_cfl4w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.45834792, 0.5049164, -0.06423015)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1979225696]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 3.1216652, 0)
