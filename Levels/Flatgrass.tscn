@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dn8fxumfj51hw" path="res://Peds/Player/Scenes/Player.tscn" id="1_cfl4w"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4ot5m"]
-size = Vector3(1.9556732, 0.11279297, 1.9476318)
+size = Vector3(1.9556732, 0.11279297, 2.1255798)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drl00"]
 albedo_texture = ExtResource("1_8iwsk")
@@ -44,7 +44,7 @@ mesh = SubResource("PlaneMesh_2c5rx")
 transform = Transform3D(3.4083269, 0, 0, 0, 1, 0, 0, 0, 3.3617826, 6.7807574, 0, 6.723532)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D3" unique_id=2086626560]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00789643, -0.04200673, -0.0032348714)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.007896423, -0.04200673, -0.06251526)
 shape = SubResource("BoxShape3D_4ot5m")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D3" unique_id=516795066]
@@ -55,7 +55,7 @@ mesh = SubResource("PlaneMesh_2c5rx")
 transform = Transform3D(3.4083269, 0, 0, 0, 1, 0, 0, 0, 3.3617826, 0.019457579, 0, 6.723532)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D4" unique_id=2121709465]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00789643, -0.04200673, -0.0032348714)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00789643, -0.04200673, -0.032928467)
 shape = SubResource("BoxShape3D_4ot5m")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D4" unique_id=387512873]
