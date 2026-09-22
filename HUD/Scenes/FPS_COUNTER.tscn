@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://db63xsbqcy64i"]
+
+[ext_resource type="Script" uid="uid://ba4cm7ik87fh1" path="res://HUD/Scripts/fps_counter.gd" id="1_h5x57"]
+
+[node name="FPS_COUNTER" type="Control" unique_id=991254974]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FPS_COUNTER" type="Label" parent="." unique_id=158843835]
+layout_mode = 0
+offset_left = 1105.0
+offset_top = 8.0
+offset_right = 1145.0
+offset_bottom = 31.0
+script = ExtResource("1_h5x57")

@@ -3,9 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://b21btbm8xh047" path="res://Peds/Player/Sprites/Player.png" id="1_6c5r8"]
 [ext_resource type="Script" uid="uid://2eyjvn26lok2" path="res://Peds/Player/Scripts/player.gd" id="1_d3jwv"]
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_2c5rx"]
-height = 0.41601563
-radius = 0.10107422
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8iwsk"]
+radius = 0.0871582
+height = 0.1743164
 
 [node name="Player" type="CharacterBody3D" unique_id=1083765268]
 script = ExtResource("1_d3jwv")
@@ -15,8 +15,8 @@ transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0
 texture = ExtResource("1_6c5r8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=628472743]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17568758, 0)
-shape = SubResource("CylinderShape3D_2c5rx")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.021330893, 0)
+shape = SubResource("CapsuleShape3D_8iwsk")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1097010671]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 2, 0)
