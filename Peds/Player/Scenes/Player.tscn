@@ -4,8 +4,8 @@
 [ext_resource type="Script" uid="uid://2eyjvn26lok2" path="res://Peds/Player/Scripts/player.gd" id="1_d3jwv"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8iwsk"]
-radius = 0.0871582
-height = 0.1743164
+radius = 0.092285156
+height = 0.20239258
 
 [node name="Player" type="CharacterBody3D" unique_id=1083765268]
 script = ExtResource("1_d3jwv")
@@ -15,7 +15,7 @@ transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0
 texture = ExtResource("1_6c5r8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=628472743]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.021330893, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.007292807, 0)
 shape = SubResource("CapsuleShape3D_8iwsk")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1097010671]
