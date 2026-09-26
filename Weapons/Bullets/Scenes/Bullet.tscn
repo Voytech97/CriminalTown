@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b3ttsq57s3w8y"]
+
+[ext_resource type="Script" uid="uid://doe5apahaep7s" path="res://Weapons/Bullets/Scenes/bullet.gd" id="1_1ii3v"]
+[ext_resource type="Texture2D" uid="uid://4ryocpgsjg2q" path="res://Weapons/Bullets/Sprites/Bullet.png" id="2_4yguu"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2c5rx"]
+radius = 0.06923538
+
+[node name="Bullet" type="Area3D" unique_id=445047981]
+script = ExtResource("1_1ii3v")
+
+[node name="MeshInstance3D" type="Sprite3D" parent="." unique_id=951777297]
+billboard = 1
+texture = ExtResource("2_4yguu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1461611485]
+shape = SubResource("SphereShape3D_2c5rx")
